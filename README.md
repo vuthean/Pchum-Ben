@@ -1,38 +1,8 @@
 # Pchum Ben Pagoda Trip 2026
 
-A responsive Next.js + TypeScript landing page for a friends' pagoda trip on Khmer Pchum Ben.
+Next.js + TypeScript event landing page for **វត្តព្រះពុទ្ធសោភ័ណ្ឌបរិបុណ្ណារាម** on October 10, 2026.
 
-## Date
+Features: Google Maps search link, browser/localStorage RSVP, photo gallery placeholders, detailed itinerary, generated ambient pentatonic music toggle, lantern/flower-petal animations, responsive Khmer Pchum Ben design.
 
-October 10, 2026
-
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
-Open http://localhost:3000
-
-## Deploy to Netlify
-
-1. Push this project to GitHub.
-2. In Netlify, choose **Add new project → Import an existing project**.
-3. Select your GitHub repository.
-4. Build command: `npm run build`
-5. Publish directory: `.next`
-6. Deploy.
-
-Netlify can also detect the Next.js project automatically.
-
-## Customize
-
-Edit `app/page.tsx` for:
-- pagoda name/location
-- meeting point
-- friends list
-- schedule
-- button text
-
-Edit `app/globals.css` for colors and design.
+Run: `npm install` then `npm run dev`.
+Netlify build: `npm run build`.
